@@ -15,6 +15,8 @@ def create_game():
     try:
         data = request.json
         
+        
+        # validations
         required_fields = ["opponent", "minutes", "points", "rebounds", "assists", "notes"]
         for field in required_fields:
             if field not in data:

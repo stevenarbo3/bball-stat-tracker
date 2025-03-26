@@ -1,0 +1,15 @@
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.pyc
+
+# Database
+games.db
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+node_modules/
+/dist/
