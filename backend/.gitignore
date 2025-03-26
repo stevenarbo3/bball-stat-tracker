@@ -4,6 +4,9 @@
 *.iml
 *.pyc
 
+# Environment variables
+.env
+
 # Database
 games.db
 
